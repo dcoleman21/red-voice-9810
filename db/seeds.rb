@@ -40,6 +40,13 @@ ingredient9 = Ingredient.create!(name: "caramel", calories: 170)
 ingredient10 = Ingredient.create!(name: "goat", calories: 175)
 ingredient11 = Ingredient.create!(name: "veggies", calories: 100)
 ingredient12 = Ingredient.create!(name: "noodles", calories: 140)
+ingredient13 = Ingredient.create!(name: "trout", calories: 240)
+ingredient14 = Ingredient.create!(name: "peas", calories: 50)
+ingredient15 = Ingredient.create!(name: "chorizo", calories: 180)
+ingredient16 = Ingredient.create!(name: "banana", calories: 90)
+ingredient17 = Ingredient.create!(name: "chocolate", calories: 200)
+ingredient18 = Ingredient.create!(name: "romain lettuce", calories: 20)
+ingredient19 = Ingredient.create!(name: "rice", calories: 250)
 #joins
 DishIngredient.create!(dish: goat, ingredient: ingredient1)
 DishIngredient.create!(dish: goat, ingredient: ingredient10)
@@ -52,12 +59,37 @@ DishIngredient.create!(dish: lamb, ingredient: ingredient6)
 DishIngredient.create!(dish: lamb, ingredient: ingredient3)
 DishIngredient.create!(dish: lamb, ingredient: ingredient1)
 
+DishIngredient.create!(dish: trout, ingredient: ingredient3)
+DishIngredient.create!(dish: trout, ingredient: ingredient13)
+DishIngredient.create!(dish: trout, ingredient: ingredient14)
+DishIngredient.create!(dish: trout, ingredient: ingredient15)
+
+DishIngredient.create!(dish: banana, ingredient: ingredient3)
+DishIngredient.create!(dish: banana, ingredient: ingredient16)
+DishIngredient.create!(dish: banana, ingredient: ingredient17)
+
 DishIngredient.create!(dish: lemon, ingredient: ingredient2)
 DishIngredient.create!(dish: lemon, ingredient: ingredient3)
 
 DishIngredient.create!(dish: steak, ingredient: ingredient1)
 DishIngredient.create!(dish: steak, ingredient: ingredient3)
 DishIngredient.create!(dish: steak, ingredient: ingredient11)
+
+DishIngredient.create!(dish: chicken, ingredient: ingredient1)
+DishIngredient.create!(dish: chicken, ingredient: ingredient3)
+DishIngredient.create!(dish: chicken, ingredient: ingredient4)
+DishIngredient.create!(dish: chicken, ingredient: ingredient5)
+
+DishIngredient.create!(dish: pb_brownie, ingredient: ingredient3)
+DishIngredient.create!(dish: pb_brownie, ingredient: ingredient8)
+DishIngredient.create!(dish: pb_brownie, ingredient: ingredient17)
+
+DishIngredient.create!(dish: lettuce, ingredient: ingredient3)
+DishIngredient.create!(dish: lettuce, ingredient: ingredient11)
+DishIngredient.create!(dish: lettuce, ingredient: ingredient18)
+
+DishIngredient.create!(dish: sushi, ingredient: ingredient11)
+DishIngredient.create!(dish: sushi, ingredient: ingredient19)
 
 DishIngredient.create!(dish: noodles, ingredient: ingredient1)
 DishIngredient.create!(dish: noodles, ingredient: ingredient3)
